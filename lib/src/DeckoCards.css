@@ -1,0 +1,19 @@
+/* DeckoCards.css */
+@import url('https://fonts.googleapis.com/css?family=Questrial|Vollkorn+SC&display=swap');
+
+.card-body {
+  font-family: 'Questrial', sans-serif;
+}
+
+.card{
+  padding: 0em;
+  margin: 20px;
+
+}
+
+
+.card-columns {
+  margin: 0 auto; /* Added */
+  float: none; /* Added */
+   /* Added */
+}

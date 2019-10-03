@@ -1,0 +1,21 @@
+/* header.js */
+
+.btn{
+  background-image: url(./images/paintbrush.png);
+  height: 25px;
+  margin:0px auto;
+  position: absolute;
+  margin-right: 20px;
+  right: 0;
+}
+
+.btn.focus, .btn:focus {
+    outline: 0;
+    box-shadow: none!important;
+}
+
+.nav-link{
+  color: white;
+}
+
+@import url('https://fonts.googleapis.com/css?family=Questrial|Vollkorn+SC&display=swap');
