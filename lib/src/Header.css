@@ -1,6 +1,6 @@
 /* header.js */
 
-.btn{
+.themebtn{
   background-image: url(./images/paintbrush.png);
   height: 25px;
   margin:0px auto;
@@ -9,7 +9,7 @@
   right: 0;
 }
 
-.btn.focus, .btn:focus {
+.themebtn.focus, .btn:focus {
     outline: 0;
     box-shadow: none!important;
 }
