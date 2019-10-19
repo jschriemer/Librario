@@ -7,6 +7,11 @@
 	overflow: hidden;
 }
 
+.searchresults{
+  background-image: url(./images/back.png);
+  background-repeat: repeat-y;
+}
+
 .card-body {
   font-family: 'Questrial', sans-serif;
 }
@@ -19,7 +24,9 @@
 
 .imgCard{
   max-width: 100px;
-  background-color: #121212;
+  background-color: rgba(0,0,0,0);
+  outline: 0;
+  box-shadow: none!important;
 }
 
 .form-inline .form-control{
@@ -63,6 +70,14 @@ br {
    margin: 10px 0;
    margin-top: 250px;
    line-height:10px;
+   content: " ";
+}
+
+.inbet {
+   display: block;
+   margin: 10px 0;
+   margin-top: 50px;
+   line-height:5px;
    content: " ";
 }
 
