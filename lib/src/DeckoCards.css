@@ -1,6 +1,12 @@
 /* DeckoCards.css */
 @import url('https://fonts.googleapis.com/css?family=Questrial|Vollkorn+SC&display=swap');
 
+.searchBar{
+  background-image: url(./images/back.png);
+  background-size: cover;
+	overflow: hidden;
+}
+
 .card-body {
   font-family: 'Questrial', sans-serif;
 }
@@ -16,6 +22,9 @@
   background-color: #121212;
 }
 
+.form-inline .form-control{
+  width: 400px;
+}
 
 .card-columns {
   margin: 0 auto; /* Added */
@@ -40,4 +49,53 @@
     left: -8%;
     position: relative;
   }
+}
+
+@import url('https://fonts.googleapis.com/css?family=Questrial|Vollkorn+SC&display=swap');
+
+.booksearch:focus {
+    outline: 0;
+    box-shadow: none!important;
+}
+
+br {
+   display: block;
+   margin: 10px 0;
+   margin-top: 250px;
+   line-height:10px;
+   content: " ";
+}
+
+.searched {
+   display: block;
+   margin: 10px 0;
+   margin-top: 100px;
+   line-height:10px;
+   content: " ";
+}
+
+.booksearch {
+  font-family: 'Vollkorn', sans-serif;
+  outline:0;
+  width: 600px;
+  left: 35%;
+  margin-right: 10px;
+  position: relative;
+  display: inline-block;
+  vertical-align: top;
+
+}
+
+.submitbtn {
+  left: 35%;
+  height: 48px;
+  margin-left: 10px;
+  position: relative;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.inputdiv {
+   display: flex;
+   flexDirection: row;
 }
