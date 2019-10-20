@@ -9,7 +9,9 @@ Login portal. Follow feature. Friends + Community Filter.
 Pull goodreads ratings?
 
 October 19th update:
+Added features include search bar that displays 10 results on cards displaying thumbnail, author, title and description. 
 ![Image of update](https://github.com/jschriemer/Librarius/blob/master/october19update.png)
+
 
 Prototype:
 ![Image of Prototype](https://github.com/jschriemer/Librarius/blob/master/IMG_20190929_132826.jpg)

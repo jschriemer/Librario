@@ -1,0 +1,41 @@
+/* header.js */
+
+.themebtn{
+  background-image: url(../images/paintbrush.png);
+  height: 25px;
+  width: 25px;
+  position: absolute;
+  margin-right: 20px;
+  right: 0;
+  background-color: rgba(0,0,0,0);
+  top: 15px;
+  outline: 0;
+}
+
+.logIn{
+  margin:0px auto;
+  position: absolute;
+  margin-right: 20px;
+  left: 81%;
+  color: white;
+  top: 15px;
+}
+
+.signUp{
+  position: absolute;
+  margin-right: 20px;
+  left: 87%;
+  color: white;
+  top: 15px;
+}
+
+.themebtn.focus, .btn:focus {
+    outline: 0;
+    box-shadow: none!important;
+}
+
+.nav-link{
+  color: white;
+}
+
+@import url('https://fonts.googleapis.com/css?family=Questrial|Vollkorn+SC&display=swap');

@@ -2,13 +2,13 @@
 @import url('https://fonts.googleapis.com/css?family=Questrial|Vollkorn+SC&display=swap');
 
 .searchBar{
-  background-image: url(./images/back.png);
+  background-image: url(../images/back.png);
   background-size: cover;
 	overflow: hidden;
 }
 
 .searchresults{
-  background-image: url(./images/back.png);
+  background-image: url(../images/back.png);
   background-repeat: repeat-y;
 }
 
