@@ -19,6 +19,7 @@
   left: 81%;
   color: white;
   top: 15px;
+  background-color: rgba(0,0,0,0);
 }
 
 .signUp{
@@ -27,6 +28,7 @@
   left: 87%;
   color: white;
   top: 15px;
+  background-color: rgba(0,0,0,0);
 }
 
 .themebtn.focus, .btn:focus {
