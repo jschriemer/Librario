@@ -15,3 +15,17 @@
   line-height:10px;
   content: " ";
 }
+
+.inputBox{
+        width: 35%;
+        margin: 10;
+        padding: 15;
+        fontSize: 16;
+        borderColor: #d3d3d3;
+        borderBottomWidth: 1px;
+        textAlign: center;
+        flex: 1;
+        backgroundColor: #fff;
+        alignItems: center;
+        justifyContent: center;
+}
