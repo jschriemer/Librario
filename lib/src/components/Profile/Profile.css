@@ -1,18 +1,22 @@
+.profilePage{
+  background-image: url(../../images/back3.png);
+}
+
+
 .cardo{
     position: absolute;
-    top: 200px;
+    top: 100px;
     left: 60px;
     display: flex;
-	align-items: center;
-	justify-content: center;
+	  align-items: center;
+	  justify-content: center;
     flex-direction: column;
     text-align: center;
-    padding: 45px;
 }
 
 .cardosettings{
     position: relative;
-    top: 176px;
+    top: 38px;
     left: 600px;
     display: flex;
     flex-direction: column;
@@ -51,12 +55,15 @@ a:hover {
 
 .ava{
     position: relative;
-    top: 5.5px;
+    top: 100px;
 }
 
-.outerava{
-    border: 2px solid teal;
-    border-radius: 50%;
-    width: 125px;
-    height: 125px;
+.cardoSubtitle{
+  position: relative;
+  top: 210px;
+}
+
+.cardoTitle{
+  position: relative;
+  top: 200px;
 }
