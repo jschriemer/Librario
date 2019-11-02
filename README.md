@@ -10,7 +10,7 @@ Pull goodreads ratings?
 
 **October 28th update**
 Added Login Auth and profile page with some simple settings
-![Image of 2nd](https://github.com/jschriemer/Librarius/blob/master/october18update.png)
+![Image of 2nd](https://github.com/jschriemer/Librarius/blob/master/october28update.png)
 
 **October 19th update:**
 Added features include search bar that displays 10 results on cards displaying thumbnail, author, title and description.
