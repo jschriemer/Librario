@@ -7,9 +7,36 @@
   position: absolute;
   margin-right: 20px;
   right: 0;
-  background-color: rgba(0,0,0,0);
+  background-color: rgba(0,0,0,0) !important;
   top: 15px;
   outline: 0;
+  box-shadow: none!important;
+  border:1px transparent;
+}
+
+.themebtn:focus {
+    outline: none;
+}
+
+.themebtn:hover {
+  animation: bounce 1s;
+}
+
+@keyframes bounce {
+	0%, 20%, 60%, 100% {
+		-webkit-transform: translateY(0);
+		transform: translateY(0);
+	}
+
+	40% {
+		-webkit-transform: translateY(-10px);
+		transform: translateY(-10px);
+	}
+
+	80% {
+		-webkit-transform: translateY(-5px);
+		transform: translateY(-5px);
+	}
 }
 
 .logIn{
