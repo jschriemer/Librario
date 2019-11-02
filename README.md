@@ -8,6 +8,10 @@ React cards to display book covers, along with text reviews, or in-book updates.
 Login portal. Follow feature. Friends + Community Filter.
 Pull goodreads ratings?
 
+**October 28th update**
+Added Login Auth and profile page with some simple settings
+![Image of 2nd](https://github.com/jschriemer/Librarius/blob/master/october18update.png)
+
 **October 19th update:**
 Added features include search bar that displays 10 results on cards displaying thumbnail, author, title and description.
 ![Image of update](https://github.com/jschriemer/Librarius/blob/master/october19update.png)
@@ -15,3 +19,7 @@ Added features include search bar that displays 10 results on cards displaying t
 
 **Prototype:**
 ![Image of Prototype](https://github.com/jschriemer/Librarius/blob/master/IMG_20190929_132826.jpg)
+
+**Resources**
+https://firebase.google.com/docs
+https://www.npmjs.com/package/react-router-dom
