@@ -1,5 +1,6 @@
 .profilePage{
   background-image: url(../../images/back3.png);
+  padding: 400px;
 }
 
 
@@ -15,8 +16,8 @@
 }
 
 .cardosettings{
-    position: relative;
-    top: 38px;
+    position: absolute;
+    top: 100px;
     left: 600px;
     display: flex;
     flex-direction: column;
