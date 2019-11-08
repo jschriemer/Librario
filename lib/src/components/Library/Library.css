@@ -1,1 +1,13 @@
+.library{
+  padding: 100px;
+  background-image: url(../../images/back2.png);
+  background-size: cover;
+	overflow: hidden;
+}
 
+.emptylibrary{
+  padding: 100px;
+  background-image: url(../../images/back2.png);
+  background-size: cover;
+	overflow: hidden;
+}

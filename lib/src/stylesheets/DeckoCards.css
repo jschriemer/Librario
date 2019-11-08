@@ -5,11 +5,14 @@
   background-image: url(../images/back.png);
   background-size: cover;
 	overflow: hidden;
+  min-height: 85.3vh;
 }
 
 .searchresults{
   background-image: url(../images/back.png);
   background-repeat: repeat-y;
+  background-size: cover;
+	overflow: hidden;
 }
 
 .card-body {
@@ -121,4 +124,23 @@ br {
 .inputdiv {
    display: flex;
    flexDirection: row;
+}
+
+.footer {
+background-color: teal;
+color: white;
+height: 50px;
+margin: 0;
+}
+
+.fp {
+ color: white;
+ position: absolute;
+ font-size: 16px;
+ left: 80%;
+ margin-top: 10px;
+}
+
+a {
+  color: hotpink;
 }
