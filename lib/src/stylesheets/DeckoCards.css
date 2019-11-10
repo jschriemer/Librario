@@ -25,7 +25,11 @@
   max-width: 400px;
 }
 
-.imgCard{
+.body{
+  padding-left: 30%;
+}
+
+.imgCarddeck{
   max-width: 100px;
   max-height: 100px;
   background-color: rgba(0,0,0,0);
@@ -37,14 +41,7 @@
   width: 400px;
 }
 
-.card-columns {
-  margin: 0 auto; /* Added */
-  float: none; /* Added */
-  text-align: center;
-  position: relative;
-  left: 25%;
-   /* Added */
-}
+
 
 @media screen and (max-width: 600px) {
   .imgCard {
