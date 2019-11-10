@@ -3,6 +3,7 @@
   background-image: url(../../images/back2.png);
   background-size: cover;
 	overflow: hidden;
+  min-height: 100vh;
 }
 
 .emptylibrary{
@@ -10,4 +11,10 @@
   background-image: url(../../images/back2.png);
   background-size: cover;
 	overflow: hidden;
+}
+
+.loading{
+  margin-top: 50px;
+  position: relative;
+  left: 50%;
 }
