@@ -25,6 +25,19 @@
   background-color: transparent;
 }
 
+@include media screen and (min-width: 900px){
 .post{
   column-count: 4;
+}
+}
+
+@include media screen and (min-width: 600px){
+  .post{
+    column-count: 3;
+  }
+}
+@include media screen and (min-width: 400px){
+    .post{
+    column-count: 2;
+  }
 }
