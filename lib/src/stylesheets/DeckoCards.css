@@ -176,3 +176,8 @@ Cursor{font-size: 20em;
   font-size: 2em;
   right: 2%;
 }
+
+.svgDiv{
+  position: absolute;
+  top: -300px;
+}
