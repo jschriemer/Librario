@@ -1,5 +1,5 @@
 /* header.js */
-
+/*
 .themebtn{
   background-image: url(../images/paintbrush.png);
   height: 25px;
@@ -38,6 +38,14 @@
 		transform: translateY(-5px);
 	}
 }
+*/
+
+.nav-link.profile{
+  position: absolute;
+  margin-right: 20px;
+  right: 0;
+}
+
 
 .logIn{
   margin:0px auto;

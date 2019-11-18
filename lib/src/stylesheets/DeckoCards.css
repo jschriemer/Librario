@@ -2,14 +2,16 @@
 @import url('https://fonts.googleapis.com/css?family=Questrial|Vollkorn+SC&display=swap');
 
 .searchBar{
-  background-image: url(../images/back.png);
+  /*background-image: url(../images/back.png);*/
+  background-color: black;
   background-size: cover;
 	overflow: hidden;
-  min-height: 85.3vh;
+  min-height: 100vh;
 }
 
 .searchresults{
-  background-image: url(../images/back.png);
+  /*background-image: url(../images/back.png);*/
+    background-color: black;
   background-repeat: repeat-y;
   background-size: cover;
 	overflow: hidden;
@@ -141,4 +143,36 @@ margin: 0;
 
 a {
   color: hotpink;
+}
+
+.frontPAge{
+  background-color: black;
+  background-size: cover;
+	overflow: hidden;
+  min-height: 100vh;
+  color: white;
+}
+
+.frontText{
+
+  position: relative;
+  right: 20%;
+  top: 30px;
+}
+
+Cursor{font-size: 20em;
+  show: true;
+  blink: true;
+  element: '';
+  hideWhenDone: true;
+}
+
+.frontHead{
+  font-size: 7em;
+}
+
+.frontSub{
+  position: relative;
+  font-size: 2em;
+  right: 2%;
 }
