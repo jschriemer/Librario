@@ -179,5 +179,31 @@ Cursor{font-size: 20em;
 
 .svgDiv{
   position: absolute;
-  top: -300px;
+  top: 450px;
+  left: 45%;
+}
+
+.lineDiv{
+  position: absolute;
+  top: 450px;
+}
+
+/* -----
+SVG Icons - svgicons.sparkk.fr
+----- */
+
+.svg-icon {
+  width: 1em;
+  height: 1em;
+}
+
+.svg-icon path,
+.svg-icon polygon,
+.svg-icon rect {
+  fill: white;
+}
+
+.svg-icon circle {
+  stroke: white;
+  stroke-width: 1;
 }
