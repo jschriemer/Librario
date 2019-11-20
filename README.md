@@ -8,6 +8,10 @@ React cards to display book covers, along with text reviews, or in-book updates.
 Login portal. Follow feature. Friends + Community Filter.
 Pull goodreads ratings?
 
+**November Update**
+Front Page added
+![Image of 3rd](https://github.com/jschriemer/Librarius/blob/master/FrontpageEx.png)
+
 **October 28th update**
 Added Login Auth and profile page with some simple settings
 ![Image of 2nd](https://github.com/jschriemer/Librarius/blob/master/october28update.png)
