@@ -174,13 +174,26 @@ Cursor{font-size: 20em;
 .frontSub{
   position: relative;
   font-size: 2em;
-  right: 2%;
+  right: 1.4%;
+}
+
+.frontIcon{
+  position: relative;
+  font-size: 1.2em;
+  right: 9.5%;
+}
+
+.botText{
+    position: absolute;
+    font-size: 1.0em;
+    right: 5px;
+    bottom: 5px;
 }
 
 .svgDiv{
   position: absolute;
-  top: 450px;
-  left: 45%;
+  top: 280px;
+  left: 52%;
 }
 
 .lineDiv{
