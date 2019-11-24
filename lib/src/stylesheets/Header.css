@@ -44,6 +44,28 @@
   position: absolute;
   margin-right: 20px;
   right: 0;
+  top: -0.2px;
+}
+.notification{
+  background-image: url(../images/bell.png);
+  height: 25px;
+  width: 20px;
+  position: absolute;
+  margin-right: 100px;
+  right: 0;
+  background-color: rgba(0,0,0,0) !important;
+  top: 15px;
+  outline: 0;
+  box-shadow: none!important;
+  border:1px transparent;
+}
+
+.themebtn:focus {
+    outline: none;
+}
+
+.themebtn:hover {
+  animation: bounce 1s;
 }
 
 
