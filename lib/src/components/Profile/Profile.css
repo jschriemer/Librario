@@ -60,6 +60,17 @@ a:hover {
     top: 10px;
 }
 
+.friendAva{
+  position: relative;
+  right: 20%;
+}
+
+.searchFriend{
+  position: relative;
+  left: 35%;
+  bottom: 125px;
+}
+
 .cardoSubtitle{
   position: relative;
   top: 210px;
