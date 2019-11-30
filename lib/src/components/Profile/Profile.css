@@ -67,8 +67,14 @@ a:hover {
 
 .searchFriend{
   position: relative;
-  left: 35%;
+  left: 50%;
   bottom: 125px;
+}
+
+.friendlist{
+  position: relative;
+  left: 50%;
+  bottom: 115px;
 }
 
 .cardoSubtitle{
