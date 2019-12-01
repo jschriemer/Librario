@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css?family=Questrial|Vollkorn+SC&display=swap');
 
 .searchBar{
-  /*background-image: url(../images/back.png);*/
+  background-image: url(../images/search.png);
   background-color: black;
   background-size: cover;
 	overflow: hidden;
@@ -10,10 +10,8 @@
 }
 
 .searchresults{
-  /*background-image: url(../images/back.png);*/
-    background-color: black;
+  background-image: url(../images/lib2.png);
   background-repeat: repeat-y;
-  background-size: cover;
 	overflow: hidden;
 }
 

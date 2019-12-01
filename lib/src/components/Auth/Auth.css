@@ -1,11 +1,17 @@
 .authcontainer{
   padding: 200px;
   background-image: url(../../images/back2.png);
+  background-size: cover;
+	overflow: hidden;
+  min-height: 100vh;
 }
 
 .authcontainer2{
   padding: 200px;
   background-image: url(../../images/back3.png);
+  background-size: cover;
+	overflow: hidden;
+  min-height: 100vh;
 }
 
 .log{

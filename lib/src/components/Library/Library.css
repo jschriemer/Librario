@@ -1,7 +1,7 @@
 .library{
   padding: 100px;
-  /*background-image: url(../../images/back2.png);*/
-  background-color: #002120;
+  background-image: url(../../images/lib.png);
+  /*background-color: #002120;*/
   background-size: cover;
 	overflow: hidden;
   min-height: 100vh;
@@ -9,7 +9,7 @@
 
 .emptylibrary{
   padding: 100px;
-  background-image: url(../../images/back2.png);
+  background-image: url(../../images/lib.png);
   background-size: cover;
 	overflow: hidden;
 }
