@@ -7,6 +7,13 @@
   min-height: 100vh;
 }
 
+.currentRead{
+  height: 400px;
+  width: 300px !important;
+  position: relative;
+}
+
+
 .emptylibrary{
   padding: 100px;
   background-image: url(../../images/lib.png);
@@ -26,15 +33,26 @@
   background-color: transparent;
 }
 
-@include media screen and (min-width: 900px){
 .post{
   column-count: 4;
 }
+
+.postsmall{
+  column-count: 1;
 }
+
+.postmed{
+  column-count: 3;
+}
+
+.postlarge{
+  column-count: 4;
+}
+
 
 @include media screen and (min-width: 600px){
   .post{
-    column-count: 3;
+    column-count: 4 !important;
   }
 }
 @include media screen and (min-width: 400px){
