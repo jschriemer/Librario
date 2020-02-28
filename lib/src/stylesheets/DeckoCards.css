@@ -158,13 +158,6 @@ a {
   top: 30px;
 }
 
-Cursor{font-size: 20em;
-  show: true;
-  blink: true;
-  element: '';
-  hideWhenDone: true;
-}
-
 .frontHead{
   font-size: 7em;
 }
