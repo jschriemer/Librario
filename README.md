@@ -3,8 +3,6 @@
 
 In the last few months, I've been reading more than coding in my free time. So I decided to build a social library web app, where users can see what their friends are reading. This project was created to better my skills with React, get some expereince handling users and storing their unique data using Firebase.
 
-Here is the current 1.0 site: http://64.227.18.211:8080/
-
 
 **Built With**
 
