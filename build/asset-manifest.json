@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/static/css/main.28c8519c.chunk.css",
+    "main.js": "/static/js/main.74bfc4da.chunk.js",
+    "main.js.map": "/static/js/main.74bfc4da.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.aaf88d20.js",
+    "runtime-main.js.map": "/static/js/runtime-main.aaf88d20.js.map",
+    "static/css/2.2ec3db0d.chunk.css": "/static/css/2.2ec3db0d.chunk.css",
+    "static/js/2.7e38da55.chunk.js": "/static/js/2.7e38da55.chunk.js",
+    "static/js/2.7e38da55.chunk.js.map": "/static/js/2.7e38da55.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.27faa158659bbeed1edf9a630fd00cf7.js": "/precache-manifest.27faa158659bbeed1edf9a630fd00cf7.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/2.2ec3db0d.chunk.css.map": "/static/css/2.2ec3db0d.chunk.css.map",
+    "static/css/main.28c8519c.chunk.css.map": "/static/css/main.28c8519c.chunk.css.map",
+    "static/js/2.7e38da55.chunk.js.LICENSE.txt": "/static/js/2.7e38da55.chunk.js.LICENSE.txt",
+    "static/media/Auth.css": "/static/media/back4.8b9f6b9f.png",
+    "static/media/friendsbook.jpg": "/static/media/friendsbook.0f642f5c.jpg",
+    "static/media/DeckoCards.css": "/static/media/search.f80013a5.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.aaf88d20.js",
+    "static/css/2.2ec3db0d.chunk.css",
+    "static/js/2.7e38da55.chunk.js",
+    "static/css/main.28c8519c.chunk.css",
+    "static/js/main.74bfc4da.chunk.js"
+  ]
+}

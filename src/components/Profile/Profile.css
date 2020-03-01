@@ -1,0 +1,111 @@
+.profilePage{
+  background-image: url(../../images/back4.png);
+  padding: 300px;
+  height: 100vh;
+  background-size: cover;
+  overflow: hidden;
+}
+
+.friendsPage{
+  padding: 100px;
+  background-size: cover;
+	overflow: hidden;
+  min-height: 100vh;
+  background-image: url(../../images/back4.png);
+}
+
+input {
+  border: 2px solid white;
+  border-radius: 4px;
+}
+
+.currentRead{
+  height: 400px;
+  width: 300px !important;
+  position: relative;
+}
+
+
+.cardo{
+    position: absolute;
+    top: 100px;
+    left: 60px;
+    display: flex;
+	  align-items: center;
+	  justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.cardosettings{
+    position: absolute;
+    top: 100px;
+    left: 600px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.header0 {
+    background-color: '#51CCFF';
+ }
+
+ .linka {
+     color:white;
+ }
+a:hover {
+    text-decoration:none;
+    color:white;
+    outline-style: none;
+    outline: 0 !important;
+    border: none !important;
+}
+
+
+ navbar-custom .navbar-text {
+    color: rgba(255,255,255,.8);
+}
+
+.navbar-custom .navbar-nav .nav-link {
+    color: rgba(255,255,255,.5);
+}
+
+/* navbar */
+.navbar-default {
+    background-color: #F8F8F8;
+    border-color: #E7E7E7;
+}
+
+.ava{
+    position: relative;
+    top: 10px;
+}
+
+.friendAva{
+  position: relative;
+  right: 20%;
+}
+
+.searchFriend{
+  position: relative;
+  left: 50%;
+  bottom: 125px;
+}
+
+.friendlist{
+  position: relative;
+  left: 20%;
+  width: 600px;
+  bottom: 115px;
+  ;
+}
+
+.cardoSubtitle{
+  position: relative;
+  top: 210px;
+}
+
+.cardoTitle{
+  position: relative;
+  top: 200px;
+}
