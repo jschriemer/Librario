@@ -36,13 +36,11 @@ componentDidMount() {
   this.setState({
     fname: friendName
   })
-  console.log("friends uid: " + friendUid + " " + friendName)
   db.collection("Users")
   .doc(friendUid).collection("Library")
     .get()
     .then(querySnapshot => {
       const data = querySnapshot.docs.map(doc => doc.data());
-      console.log("friends data: " + data)
       this.setState({
         bookcount: data.length,
         data:data
@@ -126,7 +124,6 @@ console.error("Error writing document: ", error);
      .get()
      .then(querySnapshot => {
        const data = querySnapshot.docs.map(doc => doc.data());
-       console.log("friends data: " + data)
        this.setState({
          current:data
         });
@@ -142,7 +139,6 @@ console.error("Error writing document: ", error);
       db.collection('Users').doc(friendUid).get()
       .then(querySnapshot => {
       //var cata = querySnapshot.docs.map(doc => doc.data());
-    //  console.log(cata);
      });
 
       db.collection('Users').doc(friendUid)
@@ -222,7 +218,6 @@ console.error("Error writing document: ", error);
 
 function bookimagecheck(index, books){
   if(books.items[index].volumeInfo.imageLinks === undefined){
-    console.log("undefined image! @ " + books.items[index]);
     return '../images/cannotfind.png';
   }else{
     return books.items[index].volumeInfo.imageLinks.thumbnail;
@@ -245,7 +240,6 @@ function descriptioncheck(index, books){
 }
 
 function authorCheck(index, books){
-  console.log(books.items[index].volumeInfo.authors)
   if(books.items[index].volumeInfo.authors === undefined){
     return '';
   }else{

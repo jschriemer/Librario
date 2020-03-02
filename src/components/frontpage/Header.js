@@ -55,7 +55,6 @@ export default class Header extends React.Component{
     })
   }
    });
-        console.log("componentDidMount")
         auth.onAuthStateChanged(user => {
         if(user){
             this.setState({user: true});
@@ -71,7 +70,6 @@ export default class Header extends React.Component{
   changePage(){
     const length = window.location.href.length;
     const current = window.location.href.slice(21, length);
-    console.log(current)
     if(current === '/'){
       this.setState({
         page: "front",
@@ -107,11 +105,8 @@ export default class Header extends React.Component{
     render(){
     const { match, location, history } = this.props
 
-    //const headerColor = location.pathname === '/' ? { background: 'white'} : { background: 'blue' }
-    //console.log("HERE is is:::::::::::: " + location.pathname)
 
       if(this.state.user &&  this.usercheck()){
-        console.log("header image state: " + this.state.image)
         if(this.state.image === "" || this.state.image === undefined){
 
         return(

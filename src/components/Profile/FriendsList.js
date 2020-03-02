@@ -53,7 +53,6 @@ export default class Friends extends React.Component{
     }} href="/friends" style = {{fontSize: "1.5em", float: "right"}}>Add Friends</Link>
           <ul>
       {this.state.data.map((data, index) => {
-        console.log("Name: " + data.fullname + " name: " + data.name + " uid " + data.uid)
        return(
          <div>
          <ListGroup variant="flush">

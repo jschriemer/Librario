@@ -45,9 +45,7 @@ componentDidMount(){
    .get()
    .then(querySnapshot => {
   const data = querySnapshot.docs.map(doc => doc.data());
-  console.log(data )
   if(user !== null){
-    console.log(data + " " + user.displayName + " " + data[1].name)
     for(var i in data){
   if(user.displayName === data[i].name){
     name = data[i].fullname;
@@ -65,10 +63,8 @@ componentDidMount(){
 
 
     render(){
-      console.log("BBBB" + this.state.image)
-
+      
       if(this.state.fullnamed === ""){
-        console.log("checking")
         var nae = this.getName2();
       }
       if(this.state.image === "" || this.state.image === undefined){

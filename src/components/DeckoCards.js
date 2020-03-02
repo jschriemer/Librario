@@ -52,7 +52,6 @@ export default class DeckoCards extends React.Component{
     event.preventDefault();
     let value = this.state.value;
     const result = await axios.get(`${BASE_URL}?q=${value}`);
-      console.log(result.data);
       this.setState({
         flag: 1,
         books : result.data,

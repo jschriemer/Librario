@@ -106,8 +106,6 @@ export default class MobileLibrary extends React.Component{
    render(){
 
      if(deleteFlag === 1){
-           console.log("# " + this.state.bookcount + " #" + this.state.delete)
-           console.log(deleteFlag + " YES ")
            this.setState({
              delete: !this.state.delete,
              bookcount: this.state.bookcount - 1
@@ -192,7 +190,6 @@ export default class MobileLibrary extends React.Component{
 
 function bookimagecheck(index, books){
   if(books.items[index].volumeInfo.imageLinks === undefined){
-    console.log("undefined image! @ " + books.items[index]);
     return '../images/cannotfind.png';
   }else{
     return books.items[index].volumeInfo.imageLinks.thumbnail;
@@ -215,7 +212,6 @@ function descriptioncheck(index, books){
 }
 
 function authorCheck(index, books){
-  console.log(books.items[index].volumeInfo.authors)
   if(books.items[index].volumeInfo.authors === undefined){
     return '';
   }else{

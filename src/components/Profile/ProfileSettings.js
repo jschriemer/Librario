@@ -20,7 +20,6 @@ class ProfileSettings extends React.Component{
 
 
     handleNewImage = e => {
-      console.log(e + e.target.value)
       this.setState({ image: e.target.value })
       var addPic =
         db.collection('Users').doc(login.getUID())
@@ -69,12 +68,12 @@ getName2(){
  .get()
  .then(querySnapshot => {
 const data = querySnapshot.docs.map(doc => doc.data());
-console.log(data )
+
 if(user !== null){
-  console.log(data + " " + user.displayName + " " + data[1].name)
+  
   for(var i in data){
 if(user.displayName === data[i].name){
-  console.log("yuh" + data[i].fullname);
+  
   name = data[i].fullname;
   this.setState({
     fullnamed: name
@@ -111,7 +110,7 @@ changeUsername = (newName) => {
   db.collection("Users")
   .doc(login.getUID())
   .update({name: newName});
-  console.log("updated?")
+  
 }
 
   navClicked(name) {
@@ -191,7 +190,7 @@ changeUsername = (newName) => {
 }
 
 export function isloggedOut(){
-  console.log("lg " + login.getUser())
+
   if(login.getUser() !== null){
     return false
   }

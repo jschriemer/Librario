@@ -45,7 +45,7 @@ export default class Friends extends React.Component{
       return;
     }
    const data = querySnapshot.docs.map(doc => doc.data());
-   console.log(data )
+   
      for(var i in data){
    if(value === data[i].name ||  value === data[i].fullname || value === data[i].fullname.toLowerCase() || value === data[i].name.toLowerCase()){
      userList.push(data[i]);
@@ -82,7 +82,7 @@ export default class Friends extends React.Component{
              </div>
         )
       }else{
-        console.log(userList)
+        
         return(
           <div style = {{minHeight: '100vh'}} className = 'FriendsPage'>
         <div className = 'friendSearchBar'>
@@ -102,13 +102,13 @@ export default class Friends extends React.Component{
           <ul>
         {this.state.usersList.map((item, key) => {
           let uid = db.collection('Users').doc();
-          console.log(login.getUID())
+          
 
           db.collection("Users").doc(login.getUID()).collection('Library')
           .get()
           .then(querySnapshot => {
               const data = querySnapshot.docs.map(doc => doc.data());
-              console.log(data);
+              
         }
       );
         return(
@@ -159,7 +159,6 @@ export const ToastDemo = ({ content, fullname, name, uid }) => {
   }
 
 function addFriend(fullname, name, uid){
-  console.log("friend name " + name)
     var addFriend =
       db.collection('Users').doc(login.getUID())
       .collection('Friends')
