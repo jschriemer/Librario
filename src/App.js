@@ -1,6 +1,5 @@
 import React from 'react';
 import './stylesheets/App.css';
-import 'bootstrap/dist/css/bootstrap.min.css'
 import { BrowserRouter as Router, Route, Link, Switch, useHistory, withRouter} from 'react-router-dom';
 import Header from './components/frontpage/Header'
 import DeckoCards from './components/DeckoCards'
